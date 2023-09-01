@@ -1,4 +1,4 @@
 import logo from "./images/logo.png";
 import profileImg from "./images/profileImg.png";
-
-export { logo, profileImg };
+import capstonImg from "./images/capstonImg.png";
+export { logo, profileImg, capstonImg };
