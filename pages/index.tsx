@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import LeftSide from "@/components/LeftSide";
-//import RightSide from "@/components/RightSide";
+import RightSide from "@/components/RightSide";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
