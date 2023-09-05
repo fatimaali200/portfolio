@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import LeftSide from "@/components/LeftSide";
-import RightSide from "@/components/RightSide";
+//import RightSide from "@/components/RightSide";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
@@ -33,9 +33,10 @@ export default function Home() {
             <Banner />
             <About />
             <Experience />
-            <Projects />
+            {/**<Projects />*/}
             <Archive />
           </div>
+          {/** RIGHT SIDE */}
           {/**<motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
