@@ -7,7 +7,7 @@ const Contact = () => {
       <h2 className="font-titleFont text-5xl font-semibold">
         Let&apos;s Get in Touch
       </h2>
-      <p className="max-w-[600px] text-center text-textDark">
+      <p className="max-w-[600px] text-center text-textDark  ">
         If you&apos;d like to connect or have any inquiries, please don&apos;t
         hesitate to reach out. I&apos;m always eager to collaborate, discuss new
         projects, or answer any questions you may have.
