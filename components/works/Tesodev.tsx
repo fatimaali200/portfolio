@@ -21,16 +21,9 @@ const Tesodev = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          During my internship, I took courses in JavaScript and Node.js to
-          improve my web development skills, and then developed a project with
-          the guidance of a course trainer.
-        </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textGreen mt-1">
-            <TiArrowForward />
-          </span>
-          This internship provided me with a valuable opportunity to enhance my
-          skills and knowledge in web development using these technologies.
+          I enhanced my web development skills through comprehensive JavaScript
+          and Node.js training, including the successful completion of a
+          mentor-guided project during an internship.
         </li>
       </ul>
     </motion.div>
