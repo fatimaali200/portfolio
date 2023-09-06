@@ -13,14 +13,7 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Clean Blog Website"
-          des="This is a simple blog website developed using Node.js, Express.js,and MongoDB. It allows users to add, update, and read blog posts.The project uses the EJS templating engine for rendering views."
-          listItem={["Nodejs", "MongoDB", "Expressjs", "Ejs-Template-Engine"]}
-          link=" "
-          repoLink="https://github.com/fatimaali200/clean-blog-project"
-        />
-        <ArchiveCard
-          title="HomeTaste RestApi"
+          title="HomeTaste (Backend)"
           des="HomeTaste is a platform that brings together busy individuals, such as students, with skilled local cooks who offer a diverse selection of delicious homemade dishes."
           listItem={[
             "Nodejs",
@@ -34,6 +27,14 @@ const Archive = () => {
           ]}
           link="https://home-taste-api.onrender.com/api-docs/"
           repoLink="https://github.com/fatimaali200/HomeTaste"
+        />
+
+        <ArchiveCard
+          title="Clean Blog Website"
+          des="This is a simple blog website developed using Node.js, Express.js,and MongoDB. It allows users to add, update, and read blog posts.The project uses the EJS templating engine for rendering views."
+          listItem={["Nodejs", "MongoDB", "Expressjs", "Ejs-Template-Engine"]}
+          link=" "
+          repoLink="https://github.com/fatimaali200/clean-blog-project"
         />
       </div>
     </section>
