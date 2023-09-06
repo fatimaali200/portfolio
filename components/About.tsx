@@ -2,6 +2,21 @@ import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 import Image from "next/image";
 import { profileImg } from "@/public/assets";
+import {
+  DiJavascript1,
+  DiNodejsSmall,
+  DiGithubBadge,
+  DiCode,
+} from "react-icons/di";
+import {
+  SiJest,
+  SiTypescript,
+  SiExpress,
+  SiMongodb,
+  SiSwagger,
+} from "react-icons/si";
+import { TbSql } from "react-icons/tb";
+import { BsGit } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -11,71 +26,100 @@ const About = () => {
     >
       <SectionTitle title="About Me" />
       <div className="flex flex-col lgl:flex-row gap-16">
-        <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
+        <div className="w-full lgl:w-2/3 text-base text-textDark font-medium leading-loose flex flex-col gap-4">
           <p>
-            Hello, I am Fatima, a Junior Backend Developer with a passion for
-            tackling challenges and collaborating with others to create
-            innovative solutions. I graduated from the Computer Engineering
-            department with a strong foundation in software development and a
-            curiosity to explore the ever-evolving world of technology. My
-            journey in the world of software development has been driven by a
-            relentless desire to learn and grow. I thrive on the challenges that
-            coding presents and find great satisfaction in solving complex
-            problems. Whether it is designing efficient backend systems or
-            optimizing code for performance, I am always up for the task.
+            I am a Computer Engineering graduate with a fervent passion for
+            backend web development. My practical experience includes hands-on
+            work with technologies such as Node.js, Express.js, and various
+            database systems. Furthermore, I successfully completed a
+            specialized Re:Coded backend bootcamp, where I sharpened my skills
+            in building resilient and efficient web applications.{" "}
+          </p>
+          <p>
+            My strengths lie in my unwavering attention to detail, a
+            collaborative spirit that fuels effective teamwork, and an innate
+            ability to tackle complex problems within the backend development
+            landscape. I am deeply committed to continuous growth and learning
+            in the realm of web development, actively seeking opportunities to
+            elevate my expertise and make impactful contributions to project
+            success.
           </p>
           <p>
             I have hands-on experience with a variety of technologies,
             including:
           </p>
-          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
+          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-4 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <DiJavascript1 />
               </span>
               JavaScript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <SiTypescript />
               </span>
               TypeScript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <DiNodejsSmall />
+              </span>
+              NodeJs
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <SiExpress />
+              </span>
+              ExpressJs
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <DiCode />
               </span>
               C#
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Node.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Express.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <DiCode />
               </span>
               Ado.Net
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <SiMongodb />
               </span>
               MongoDB
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <TbSql />
               </span>
               MSSQL
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <BsGit />
+              </span>
+              Git
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <SiSwagger />
+              </span>
+              Swagger
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <SiJest />
+              </span>
+              Jest
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <DiGithubBadge />
+              </span>
+              Github
             </li>
           </ul>
         </div>
