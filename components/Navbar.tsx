@@ -15,6 +15,7 @@ const Navbar = () => {
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
   ) => {
     e.preventDefault();
+    setShowMenu(false);
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
     const elem = document.getElementById(targetId);
@@ -27,6 +28,14 @@ const Navbar = () => {
     });
     e.currentTarget.classList.add("active");
   };
+
+  //for small icon section
+  function handlClick(e: any) {
+    if (e.target.contains(ref.current)) {
+      setShowMenu(false);
+    }
+  }
+
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between ">
@@ -128,6 +137,7 @@ const Navbar = () => {
         {showMenu && (
           <div
             ref={(node) => (ref.current = node)}
+            onClick={handlClick}
             className="absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end"
           >
             <motion.div
