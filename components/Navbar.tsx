@@ -114,7 +114,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/fatima_ali.pdf" target="_blank">
+          <a href="/assets/fatima_ali_cv.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -218,7 +218,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/fatima_ali.pdf" target="_blank">
+                <a href="/assets/fatima_ali_cv.pdf" target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
