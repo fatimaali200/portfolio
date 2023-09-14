@@ -10,6 +10,7 @@ import Experience from "@/components/Experience";
 import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Certificate from "@/components/Certificate";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
             <Experience />
             {/**<Projects />*/}
             <Archive />
+            {/** <Certificate /> */}
             <Contact />
             <Footer />
           </div>
